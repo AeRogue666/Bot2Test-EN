@@ -1,0 +1,125 @@
+#########################################
+#		BOT2TEST		#
+#########################################
+
+Please do not sell or make commercial use of what we offer!
+
+Everything we put on Github is licensed and should only be used for educational purposes and simplicity of manufacture.
+
+However, if people should sell our products, please let us know, we will do our best to prevent them.
+
+#########################################
+
+Hello/Hello, here are the steps to follow before doing anything with the bot!
+
+To start, you must find the following files:
+
+index.js
+config.json
+package.json
+
+In each file (except json) everything is explained so that the configuration and programming of this bot
+is the most fun.
+
+Step 1 - Before use
+
+Before using the bot you must install the packages.
+They allow the bot to perform complex tasks but also to run it.
+
+We will have to install the packages contained in package.json as well as the packages contained in the index.js file
+
+I list them below:
+
+By default:
+discord.js
+moment
+For the ban and the mute:
+ms
+
+To do this, you will open the console to launch the bot.bat and write to it
+
+npm i discord.js moment
+
+The two packages will install themselves.
+
+WARNING! discord.js is a huge package! It contains about 30 to 40 packages so don't expect
+what it takes to install in 10 seconds! Count several minutes instead!
+
+As soon as everything is installed you will have to configure the config.json file.
+
+#########################################
+
+Step 2 - Configure the bot
+
+Go to the config.json file.
+
+You should have this:
+
+{
+"token": "The token of the bot",
+"OwnerID": "Your ID",
+"nivperms": "8", 
+"prefix":"-", 
+"OwnerName": "Your Username",
+"BotName": "The name of the bot",
+"version": "The bot version"
+}
+
+Please enter your discord ID (right-click on your nickname, Copy ID) instead of your ID.
+nivperms indicates the permission level of the bot. 8 is the Administrator permission level.
+You can change it by going here:
+https://discordapi.com/permissions.html#0
+
+All you have to do is fill in your bot ID and click on boxes to give or remove permissions.
+There is no point in adding more permissions than level 8 because that is the maximum level you can reach: D
+So you can only remove some.
+
+prefix is the bot prefix ( / $ // ? ! -- that we all bots before typing a command).
+OwnerName is your username.
+BotName is the name you want to give to the bot.
+version is of course the bot version.
+
+and finally... token.
+Well, that's more complicated.
+
+The token is the secret key to your bot.
+It makes it possible to control it completely.
+If it is stolen from you, the person will be able to do what they want to your bot.
+
+Keep it carefully and did not put it visibly in the code (here it is in a file external to the code).
+
+To get a token you have to go here:
+https://discordapp.com/developers/applications
+
+Log in with your discord account and create a bot like this:
+
+New Application >
+
+Name the bot and then:
+
+Bot > Add Bot > Yes, do it!
+
+Then click on Copy under Click to Reveal Token.
+
+You just copied the token!
+Put it in place of the sentence "The token of the bot".
+
+You have finished configuring the config.json file!
+
+#########################################
+
+Step 3 - Launch the bot
+
+The bot is ready!
+
+To launch it, click on to launch_the_bot.bat and write :
+
+node index.js
+
+The bot should launch correctly.
+
+If there is an error, don't hesitate to report it to me on the Discord Pimp My Bot!
+
+https://discord.me/pimpmybot
+
+And if you could talk about Bot2Test around you it would be cool! The more people there are, the more we laugh!

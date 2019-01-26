@@ -1,0 +1,9 @@
+{
+"token": "The token of the bot",
+"OwnerID": "Your ID",
+"nivperms": "8", 
+"prefix":"-", 
+"OwnerName": "Your Username",
+"BotName": "The name of the bot",
+"version": "The bot version"
+}
