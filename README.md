@@ -9,7 +9,7 @@ Developed in JavaScript like 80% of Discord bots, Bot2Test is unquestionably eas
 
 You don't need to know how to code! Just download Bot2Test and follow the instructions in it to use it!
 
-If you have a problem you can come and get help on our Discord ( https://discord.me/pimpmybot).
+If you have a problem you can come and get help on our Discord ( https://discord.me/pimpmybot or https://discord.gg/8648RT6).
 
 Regular updates will take place with many orders coming soon: P
 
