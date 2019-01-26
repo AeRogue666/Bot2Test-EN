@@ -1,4 +1,4 @@
-# Bot2Test(v.EN)
+# Bot2Test (v.EN)
 The Bot Discord for beginners - Create your Bot Discord without knowing how to code!
 
 You've always dreamed of having your own Discord bot but you don't know how to do it? What language is used?
