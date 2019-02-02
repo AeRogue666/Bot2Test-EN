@@ -21,16 +21,17 @@ client.on("ready", function() {
 ------------------------------------------------------
 > Lancement en cours...
 ------------------------------------------------------
-${client.user.tag} s'est correctement lancé !
-Il est actuellement connecté sur ${client.guilds.size} serveur(s)
-ainsi que ${client.channels.size} canaux
-Il y a ${client.users.size} utilisateurs 
-qui peuvent potentiellement utiliser le bot !
+${client.user.tag} has connected correctly!
+Server(s) : ${client.guilds.size}
+Channels : ${client.channels.size}
+Members : ${client.users.size}
+Bot invitation:
+https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=${config.nivperms}
 LET'S GO!
 ------------------------------------------------------
----------- Bot de Test créé par AeRogue --------------
+---------- Bot of test created by AeRogue --------------
 ------------------------------------------------------
------------------ Logs du Bot ------------------------`
+----------------- Logs of Bot ------------------------`
 
     console.log(clientcharge); //We use the clientcharge variable we created above. The text it contains will be displayed in the console.
 	
@@ -120,7 +121,10 @@ break;
 case "invite":
 case "inv":
 console.log(` ${message.author.tag} use ${config.prefix}invite !`);
+//If you want people to be able to invite your bot :
 message.reply("You want to invite my bot to your Discord? No problem! No problem! Click on the link --> https://discordapp.com/oauth2/authorize?client_id=" + client.user.id + "&scope=bot&permissions=" + config.nivperms);
+//If you don't want people to be able to invite your bot :
+//message.reply("I'm sorry, but that's not possible. However, you can download my official version here: https://github.com/BinaryBreakFast/Bot2Test");
 break;
  }	
 });
