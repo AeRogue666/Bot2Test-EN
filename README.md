@@ -18,3 +18,18 @@ Please do not sell or make commercial use of what we offer!
 Everything we put on Github is licensed and should only be used for educational purposes and simplicity of manufacture.
 
 However, if people should sell our products, please let us know, we will do our best to prevent them.
+
+
+French version available here: https://github.com/BinaryBreakFast/Bot2Test
+
+
+Updated - 02/02/2019 - 0.0.1b
+
+- Updating the console to allow you to invite the bot to your Discord without doing any particular manipulation.
+- Update the invitation command to allow you to choose between allowing members to invite your bot or not.
+- Updating the explanation file with more details
+- Adding a rest containing additional commands ( FR and EN):
+
+- List of servers on which your bot is connected
+- Server information
+- Information on users
