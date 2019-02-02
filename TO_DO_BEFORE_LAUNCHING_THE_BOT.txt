@@ -23,7 +23,12 @@ is the most fun.
 
 Step 1 - Before use
 
-Before using the bot you must install the packages.
+Before using the bot please check that the npm command gives you something.
+If windows returns an error it is because you do not have npm.
+
+To get it please download node.js here: https://nodejs.org/en/
+
+After installing node.js, you must install the packages.
 They allow the bot to perform complex tasks but also to run it.
 
 We will have to install the packages contained in package.json as well as the packages contained in the index.js file
